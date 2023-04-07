@@ -9,7 +9,7 @@ body {
 }
 .container {
     width: 45%;
-    height: 50vh;
+    height: 55vh;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 12px 12px 20px #4e7391,
@@ -56,6 +56,13 @@ body {
 .btns .row button:active {
     background-color: #04a770;
 }
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #484444;
+}
 
 #evl{
     background-color: #04a770;
@@ -89,7 +96,7 @@ body {
 @media (max-width: 420px) {
     .container {
         width: 90%;
-        height: 500px;
+        height: 520px;
     }
     .btns {
         width: 30px;
