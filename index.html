@@ -17,22 +17,22 @@
         <div class="btns">
             <div class="row">
                 <button id="ce" onclick="backspc()">CE</button>
-                <button onclick="fact()">x!</button>
                 <button class="calc-btn">(</button>
-                <button class="calc-btn">)</button>
+                <button onclick="fact()">x!</button>
+                <button onclick="pi()">π</button>
                 <button class="calc-btn">%</button>
-                <button id="ac" onclick="end()">AC</button>
+                <button onclick="e()">e</button>
             </div>
             <div class="row">
-                <button onclick="sin()">sin</button>
-                <button onclick="pi()">π</button>
+                <button id="ac" onclick="end()">AC</button>
+                <button class="calc-btn">)</button>
                 <button class="calc-btn">7</button>
                 <button class="calc-btn">8</button>
                 <button class="calc-btn">9</button>
-                <button class="calc-btn">÷</button>
+                <button class="calc-btn" style="font-size: 18px;">÷</button>
             </div>
             <div class="row">
-                <button onclick="cos()">cos</button>
+                <button onclick="sin()">sin</button>
                 <button onclick="log()">log</button>
                 <button class="calc-btn">4</button>
                 <button class="calc-btn">5</button>
@@ -40,20 +40,21 @@
                 <button class="calc-btn">x</button>
             </div>
             <div class="row">
-                <button onclick="tan()">tan</button>
+                <button onclick="cos()">cos</button>
                 <button onclick="sqrt()">√</button>
                 <button class="calc-btn">1</button>
                 <button class="calc-btn">2</button>
                 <button class="calc-btn">3</button>
-                <button class="calc-btn">-</button>
+                <button class="calc-btn" style="font-size:20px;">.</button>
+
             </div>
             <div class="row">
-                <button onclick="e()">e</button>
+                <button onclick="tan()">tan</button>
                 <button onclick="pow()">x <span style="position: relative; bottom: 0.4rem; right: 0.1rem;">y</span></button>
-                <button class="calc-btn">0</button>
-                <button class="calc-btn">.</button>
-                <button onclick="screen.value = eval(screen.value)" id="evl">=</button>
+                <button class="calc-btn" style="font-size: 18px;">-</button>
                 <button class="calc-btn">+</button>
+                <button class="calc-btn">0</button>
+                <button onclick="screen.value = eval(screen.value)" id="evl">=</button>
             </div>
         </div>
     </div>
